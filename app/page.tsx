@@ -1,11 +1,10 @@
-import background from "@/assets/mars.jpeg";
 import TransparentCard from "@/components/card";
-import Image from "next/image";
+import Hero from "@/components/hero";
 
 export default function HomePage() {
   return (
     <main className="relative h-screen overflow-hidden">
-      <Image src={background} fill alt="hero image" className="object-cover" />
+      <Hero />
       <div className="absolute bottom-20 left-20">
         <TransparentCard />
       </div>

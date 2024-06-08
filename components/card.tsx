@@ -52,9 +52,9 @@ export default function TransparentCard() {
       <div className="flex flex-col gap-1">
         <div
           className="h-24 rounded-b-sm bg-slate-50 p-4"
-          style={{
-            boxShadow: "rgb(255 255 255 / 26%) 0px -14px 16px 0px",
-          }}
+          // style={{
+          //   boxShadow: "rgb(255 255 255 / 26%) 0px -14px 16px 0px",
+          // }}
         >
           <p className="text-sm text-gray-400">Your email or phone number</p>
           <h2 className="tracking-wide text-gray-600">
