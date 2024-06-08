@@ -21,11 +21,11 @@ export default function TransparentCard() {
         <div
           style={{
             backgroundImage:
-              "linear-gradient(120deg, rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0.17))",
+              "linear-gradient(-120deg, rgba(255, 255, 255, 0.10), rgba(0, 0, 0, 0.20))",
             height: "100%",
             width: "100%",
           }}
-          className="bg-transparent backdrop-blur-[9px]"
+          className="bg-transparent bg-mine backdrop-blur-[10px]"
         >
           <h3
             className={`${astera.className} p-4 text-3xl font-normal uppercase tracking-[0.28em] text-slate-50`}

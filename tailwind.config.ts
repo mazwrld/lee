@@ -14,7 +14,7 @@ const config = {
       auto: "auto",
       cover: "cover",
       contain: "contain",
-      mine: "30px",
+      mine: "33px",
       "50%": "50%",
     },
     container: {
