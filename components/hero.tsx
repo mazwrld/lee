@@ -2,11 +2,11 @@
 
 import fog from "@/assets/fog.jpeg";
 import green from "@/assets/green.jpeg";
-import { motion, AnimatePresence } from "framer-motion";
 import hubble from "@/assets/hubble.jpeg";
 import mars from "@/assets/mars.jpeg";
 import range from "@/assets/range.jpeg";
 import shine from "@/assets/shine.jpeg";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -38,8 +38,8 @@ export default function Hero() {
             key={currentImage}
             src={images[currentImage]!.src}
             alt="hero image"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="transition-all duration-1000"
           />
         </motion.div>
